@@ -10,7 +10,7 @@ const Help = () => {
     return (
         <section className='w-full bg-gray-100 py-10 text-center px-10'>
             <h1 className='text-4xl font-semibold mb-4'>Need Help?</h1>
-            <p className='text-smallText'>Don't worry, we got you. Here are some answers for your questions.</p>
+            <p className='text-smallText'>Don&apos;t worry, we got you. Here are some answers for your questions.</p>
             <div className='sm:w-[50%] mx-auto mt-10'>
             <Accordion type="single" collapsible>
                 <AccordionItem value="item-1" className='bg-white rounded-md px-4 mb-4 py-0'>

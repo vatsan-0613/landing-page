@@ -13,9 +13,9 @@ const Service: React.FC<ServiceProps> = ({ flex, phoneImg }) => {
                 <h2 className='sm:text-5xl text-4xl font-semibold mb-5 sm:leading-tight mt-5 sm:mt-0'><span className='text-buttonOrange'>Unleash</span> the power of AI with GenAI</h2>
                 <p className='text-smallText leading-8'>
                     Stay ahead of the curve with our Dynamic Trend Analysis feature.
-                    Unlock the full potential of your tech stack with Horizon's intuitive
+                    Unlock the full potential of your tech stack with Horizon&apos;s intuitive
                     and Stay ahead of the curve with our Dynamic Trend Analysis feature.
-                    Unlock the full potential of your tech stack with Horizon's intuitive
+                    Unlock the full potential of your tech stack with Horizon&apos;s intuitive
                     and
                 </p>
             </div>
