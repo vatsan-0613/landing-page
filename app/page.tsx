@@ -5,6 +5,8 @@ import Description from "@/components/Description";
 import Service from "@/components/Service";
 import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
+import Help from "@/components/Help";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -17,7 +19,8 @@ export default function Home() {
    <Service flex="flex-row" phoneImg="phone3.png" />
    <Features />
    <Pricing />
-   </>
+   <Help />
+   <Contact />
    </>
   );
 }

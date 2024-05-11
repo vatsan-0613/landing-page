@@ -51,16 +51,16 @@ const Pricing = () => {
             )
         })}
         </div>
-        <div className='flex justify-evenly items-center'>
-            <div className='flex gap-3 items-center'>
+        <div className='sm:flex-row flex-col flex sm:justify-evenly sm:items-center items-start'>
+            <div className='flex gap-3 items-center mb-3 sm:mb-0 sm:mx-auto ms-16'>
                 <Image src="/images/tick.png" width={30} height={30} alt='tick-img'/>
                 <p className='text-buttonOrange'>Free trial</p>
             </div>
-            <div className='flex gap-3 items-center'>
+            <div className='flex gap-3 items-center mb-3 sm:mb-0 sm:mx-auto ms-16'>
                 <Image src="/images/tick.png" width={30} height={30} alt='tick-img'/>
                 <p className='text-buttonOrange'>Cancel anytime</p>
             </div>
-            <div className='flex gap-3 items-center'>
+            <div className='flex gap-3 items-center mb-3 sm:mb-0 sm:mx-auto ms-16'>
                 <Image src="/images/tick.png" width={30} height={30} alt='tick-img'/>
                 <p className='text-buttonOrange'>support included</p>
             </div>
