@@ -14,9 +14,9 @@ export default function Home() {
    <Nav />
    <Hero />
    <Description />
-   <Service flex="flex-row" phoneImg="phone1.png" />
-   <Service flex="flex-row-reverse" phoneImg="phone2.png" />
-   <Service flex="flex-row" phoneImg="phone3.png" />
+   <Service flex="flex-row" phoneImg='phone1.png' />
+   <Service flex="flex-row-reverse" phoneImg='phone2.png' />
+   <Service flex="flex-row" phoneImg='phone3.png' />
    <Features />
    <Pricing />
    <Help />
