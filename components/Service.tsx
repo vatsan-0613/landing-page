@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import phoneOne from '@/public/Phone1.png';
-import phoneTwo from '@/public/Phone2.png';
-import phoneThree from '@/public/Phone3.png';
+import phoneOne from '@/public/images/Phone1.png';
+import phoneTwo from '@/public/images/Phone2.png';
+import phoneThree from '@/public/images/Phone3.png';
 
 interface ServiceProps {
     flex: string;
