@@ -20,7 +20,7 @@ const Service: React.FC<ServiceProps> = ({ flex, phoneImg }) => {
                 </p>
             </div>
             <Image
-                src={`/images/${phoneImg}`}
+                src={phoneImg}
                 width={300}
                 height={300}
                 alt="Picture of the author"
