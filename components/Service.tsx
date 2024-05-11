@@ -1,5 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
+import phoneOne from '@/public/Phone1.png';
+import phoneTwo from '@/public/Phone2.png';
+import phoneThree from '@/public/Phone3.png';
 
 interface ServiceProps {
     flex: string;
@@ -20,7 +23,7 @@ const Service: React.FC<ServiceProps> = ({ flex, phoneImg }) => {
                 </p>
             </div>
             <Image
-                src={phoneImg}
+                src={phoneImg === "1" ? phoneOne : phoneImg === "2" ? phoneTwo : phoneImg === "3" ? phoneThree : phoneThree}
                 width={300}
                 height={300}
                 alt="Picture of the author"
