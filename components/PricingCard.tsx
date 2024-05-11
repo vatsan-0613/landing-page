@@ -28,7 +28,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ type, price, features }) => {
             </div>
         )
       })}
-      {type==="Innovator"?<PricingButton buttonBackgroundColor='buttonOrange' textColor='white'/>:<PricingButton buttonBackgroundColor='white' textColor='black'/>}
+      {type==="Innovator"?<PricingButton text='Get now' buttonBackgroundColor='buttonOrange' textColor='white'/>:<PricingButton text="Get now" buttonBackgroundColor='white' textColor='black'/>}
       
     </div>
   );
