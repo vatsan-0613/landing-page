@@ -8,8 +8,8 @@ const Hero = () => {
         <section className='lg:flex hidden px-10 mt-20'>
             <div className='relative'>
                 <div className='mb-7 mt-5'>
-                    <h2 className='text-buttonOrange text-6xl font-semibold mb-2'>Transform Ideas</h2>
-                    <h2 className='text-6xl font-semibold'>into apps with AI</h2>
+                    <h2 className='text-buttonOrange text-6xl font-semibold mb-0'>Transform Ideas <br /><span className='text-black'>into apps with AI</span></h2>
+                    {/* <h2 className='text-6xl font-semibold'>into apps with AI</h2> */}
                 </div>
                 <div className='mb-7'>
                     <p className='text-smallText w-[55%]'>

@@ -9,7 +9,7 @@ interface PricingButtonProps {
 
 const PricingButton: React.FC<PricingButtonProps> = ({ buttonBackgroundColor, textColor, text }) => {
   return (
-    <button className={`bg-${buttonBackgroundColor} ${text === "Subscribe now" ? "mt-2":"mt-7"} px-4 py-3 rounded-md text-${textColor} flex items-center justify-center gap-2 w-full ${textColor == "black" && "border-solid border-[1px] border-gray-150 shadow-md"}`}>
+    <button className={`bg-${buttonBackgroundColor} ${text === "Subscribe now" ? "mt-0":"mt-7"} px-4 py-3 rounded-md text-${textColor} flex items-center justify-center gap-2 w-full ${textColor == "black" && "border-solid border-[1px] border-gray-150 shadow-md"} shadow-md`}>
       <p>{text}</p>
       {buttonBackgroundColor == "buttonOrange"?<Image
         src="/images/arrow.png"

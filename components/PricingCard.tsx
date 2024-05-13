@@ -10,7 +10,7 @@ interface PricingCardProps {
 
 const PricingCard: React.FC<PricingCardProps> = ({ type, price, features }) => {
   return (
-    <div className='p-10 mb-7 border-solid border-[1px] border-gray-150 rounded-lg shadow-md'>
+    <div className={`p-10 mb-7 border-solid border-[1px] border-gray-150 rounded-lg shadow-md ${type!=="Innovator" && "h-fit"} ${type=="Innovator" && "shadow-xl"}`}>
       <p className={`font-semibold text-center ${type=="Innovator" && "text-buttonOrange"} `}>{type} {type=="Innovator" && (
         <span className='bg-orange-50 text-buttonOrange rounded-md px-2 py-1'>
             <span className='w-2 h-2 inline-block bg-buttonOrange rounded-full me-2'></span>

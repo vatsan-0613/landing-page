@@ -7,6 +7,7 @@ import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
 import Help from "@/components/Help";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
    <Pricing />
    <Help />
    <Contact />
+   <Footer />
    </>
   );
 }
