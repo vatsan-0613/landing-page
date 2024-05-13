@@ -17,29 +17,29 @@ const Footer = () => {
           <div className='sm:w-[30%] flex flex-col gap-5'>
             <h2 className='font-semibold text-2xl'>GenAI</h2>
             <p>lorem ipsum dolor sit amet lorem ipsum dolor sit maet lorem ipsum dlor sit amet.</p>
-            <p className='hidden sm:inline-block'>All rights reserved.</p>
+            <p className='hidden sm:inline-block text-gray-500'>All rights reserved.</p>
           </div>
           <div className='flex justify-between sm:gap-20'>
             <div className='flex flex-col gap-3 text-sm text-gray-500'>
-              <p>About</p>
-              <p>Contact</p>
-              <p>Blog</p>
-              <p>Story</p>
+              <p className='hover:text-white'>About</p>
+              <p className='hover:text-white'>Contact</p>
+              <p className='hover:text-white'>Blog</p>
+              <p className='hover:text-white'>Story</p>
             </div>
             <div className='flex flex-col gap-3 text-sm text-gray-500'>
-              <p>Company</p>
-              <p>Product</p>
-              <p>Press</p>
-              <p>More</p>
+              <p className='hover:text-white'>Company</p>
+              <p className='hover:text-white'>Product</p>
+              <p className='hover:text-white'>Press</p>
+              <p className='hover:text-white'>More</p>
             </div>
             <div className='flex flex-col gap-3 text-sm text-gray-500'>
-              <p>Press</p>
-              <p>Career</p>
-              <p>News Letters</p>
-              <p>More</p>
+              <p className='hover:text-white'>Press</p>
+              <p className='hover:text-white'>Career</p>
+              <p className='hover:text-white'>News Letters</p>
+              <p className='hover:text-white'>More</p>
             </div>
           </div>
-          <p className='sm:hidden text-center'>All rights reserved.</p>
+          <p className='sm:hidden text-center text-gray-150'>All rights reserved.</p>
         </div>
     </footer>
   )

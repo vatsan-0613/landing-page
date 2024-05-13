@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import Image from 'next/image'
+import heroImg from '@/public/images/heroImg.png'
 
 const Hero = () => {
     return (
@@ -20,7 +21,7 @@ const Hero = () => {
             </div>
             <div className='absolute right-0'>
             <Image
-      src="/images/heroImg.png"
+      src={heroImg}
       width={500}
       height={500}
       alt="Picture of the author"
