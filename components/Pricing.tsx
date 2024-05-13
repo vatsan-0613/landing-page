@@ -44,7 +44,7 @@ const Pricing = () => {
   return (
         <section className='px-10 w-full mt-16 mb-16'>
         <h2 className='sm:text-5xl text-4xl font-semibold text-center mb-10 sm:leading-tight'>Start making <span className='text-buttonOrange'>smarter</span> decisions, <br />Choose a plan</h2>
-        <div className='sm:flex-row flex justify-evenly flex-col items-center'>
+        <div className='lg:flex-row flex justify-evenly flex-col items-center'>
         {pricings.map((pricing, ind) => {
             return(
             <PricingCard type={pricing.type} price={pricing.price} features={pricing.features} key={ind}/>
